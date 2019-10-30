@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main()
 {
- int n=8;
+ int n;
+ scanf("%d",&n);
  unsigned long int factorial=1;
  if(n<0)
     {printf("invalid number");}
@@ -14,4 +15,8 @@ int main()
 printf("factorial=%lu",factorial);
 return 0;
 }
+
+
+
+
 
